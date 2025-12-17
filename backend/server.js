@@ -36,6 +36,7 @@ const transporter = nodemailer.createTransport({
   }
 });
 
+
 // Функция для отправки письма с вложениями 
 const sendMessage = (textForSend, attachments, subText, res) => {
   let mailOptions = {                                                                                                       // НАСТРОЙКА ДЛЯ ОТПРАВКИ (НУЖНО ВЫВЕСТИ В ОТДЕЛЬНУЮ ФУНКЦИЮ, НО ... ЛЕЕЕНЬЬЬЬЬЬ)
